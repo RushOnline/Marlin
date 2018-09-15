@@ -604,13 +604,13 @@
     // Horizontal offset of the universal joints on the end effector.
     #define DELTA_EFFECTOR_OFFSET 31 // mm
     // Horizontal offset of the universal joints on the carriages.
-    #define DELTA_CARRIAGE_OFFSET 32.5 // mm
+    #define DELTA_CARRIAGE_OFFSET 32 // mm
     // Horizontal distance bridged by diagonal push rods when effector is centered.
     #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-(DELTA_EFFECTOR_OFFSET)-(DELTA_CARRIAGE_OFFSET))  //mm  Get this value from auto calibrate
   #endif
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 332.5 // get this value from auto calibrate
+  #define DELTA_HEIGHT 332.7 // get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
